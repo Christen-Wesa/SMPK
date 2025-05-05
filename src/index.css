@@ -1,0 +1,425 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  padding: 0px;
+  pointer-events:initial;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #F9FAFB;
+}
+
+:root {
+  --main-color : rgb(123, 175, 212);
+}
+
+.main-color {
+  color: var(--main-color);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.layer-black{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.layer-white{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.layer-main{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(46, 151, 46, 0.4);
+}
+
+.clear-fix{
+  float: none;
+}
+
+/*Start Navbar Styles*/
+
+.navbar .collapse .nav-link{
+  color:var(--main-color);
+}
+
+.navbar ul li:hover .line{
+height: 3px;
+width: 2rem;
+background-color: var(--main-color);
+padding: 0;
+}
+
+
+.dropdown-menu{
+  z-index: 99999 !important;
+}
+
+.navbar .dropdown .dropdown-menu .dropdown-item{
+color: var(--main-color);
+}
+
+/*Start Home Styles*/
+.home{
+  background-image: url('../src/Images/photo-1504052434569-70ad5836ab65.avif');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+
+.home .content{
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  padding-top: 15%;
+}
+
+.home .content .btn{
+  background-color: transparent;
+  border: 2px solid var(--main-color);
+}
+
+.home .content .btn:hover{
+  background-color: var(--main-color);
+  transition: 0.4s all ease-in-out;
+}
+
+/*Start Schedule Styles*/
+.schedule{
+  background-image: url('Images/429823832_822866406551286_8352990738433281605_n.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: fit-content;
+}
+
+/*Start Life At Styles*/
+
+.lifeAt .content h2::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  border-color: orange;
+  border-style: solid;
+  border-width: 1px 0;
+  bottom: 0;
+  padding: 4px 0 5px;
+  width: 70px;
+}
+
+.lifeAt .content h2::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;  
+  background-color: orange;
+  bottom: 5px;
+  height: 1px;
+  width: 160px;
+}
+
+.lifeAt .content h2{
+  position: relative;
+}
+
+.lifeAt .content .images img{
+  height: 300px;
+  transition: transform 800ms;
+}
+
+.lifeAt .content .card:hover img{
+  transform: scale(1.1);
+  transition: 0.5s all ease-in-out;
+}
+
+.lifeAt .content .card{
+  overflow: hidden;
+}
+
+/*Start Giving Styles*/
+.giving{
+  background-image: url('Images/Giving3.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
+  height: fit-content;
+}
+
+/*Start SchedulePage Styles*/
+.schedulePage{
+  background-image: url('../src/Images/429823832_822866406551286_8352990738433281605_n.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 80vh;
+}
+
+
+.schedulePage .content{
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  padding-top: 15%;
+}
+
+.schedulePage .content h1{
+  font-size: 4rem;
+}
+
+.calender h2{
+  position: relative;
+}
+
+.calender h2::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  border-color: orange;
+  border-style: solid;
+  border-width: 1px 0;
+  bottom: 0;
+  padding: 4px 0 5px;
+  width: 70px;
+}
+
+.calender h2::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;  
+  background-color: orange;
+  bottom: 5px;
+  height: 1px;
+  width: 160px;
+}
+
+
+/*Start Giving Page Styles*/
+.givingPage{
+  background-image: url('../src/Images/Giving3.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 90vh;
+}
+
+.givingPage .content h1{
+  font-size: 4rem;
+}
+
+.whyGive h2::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  border-color: orange;
+  border-style: solid;
+  border-width: 1px 0;
+  bottom: 0;
+  padding: 4px 0 5px;
+  width: 70px;
+}
+
+.whyGive h2::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;  
+  background-color: orange;
+  bottom: 5px;
+  height: 1px;
+  width: 160px;
+}
+
+.givingFromHeart h2{
+  position: relative;
+}
+
+.givingFromHeart h2::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  border-color: orange;
+  border-style: solid;
+  border-width: 1px 0;
+  bottom: 0;
+  padding: 4px 0 5px;
+  width: 70px;
+}
+
+.givingFromHeart h2::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;  
+  background-color: orange;
+  bottom: 5px;
+  height: 1px;
+  width: 160px;
+}
+
+.givingFromHeart .givingCards .card:hover {
+  box-shadow: 5px 5px 5px gray;
+  transition: 0.2s all ease-in-out;
+}
+
+.givingFromHeart .givingCards .card{
+  height: 100%;
+  padding-top: 5%;
+}
+/*Start MinistriesPage Styles*/
+.MinistriesPage{
+  background-image: url('../src/Images/429823832_822866406551286_8352990738433281605_n.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 90vh;
+}
+
+.MinistriesPage .content{
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  padding-top: 13%;
+}
+
+
+.MinistriesPage .content h1{
+  font-size: 4rem;
+}
+
+.MinistriesCards .card{
+  margin: 5% 0;
+  height: 90%;
+}
+
+.MinistriesCards .card:hover{
+  box-shadow: 0 0 7px grey;
+  transition: 0.3s all ease-in-out;
+}
+
+.MinistriesCards .card h4{
+  color: black;
+}
+
+.MinistriesCards .card img{
+ height: 100px;
+ width: 100px;
+}
+
+/*Start WatchLivePage Styles*/
+.WatchLivePage{
+  background-image: url('../src/Images/WatchLive.jpg');
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  height: 90vh;
+}
+
+.contactUs{
+  background-image: url('../src/Images/contactUs\ .jpeg');
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  height: 90vh;
+}
+
+.WatchLivePage .content, .contactUs .content{
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+.WatchLivePage .content h1, .contactUs .content h1 {
+  font-size: 3.5rem;
+}
+
+.LiveVideo{
+  height: fit-content;
+}
+
+/*Start AboutUsPage Styles*/
+.AboutUsPage{
+  background-image: url('../src/Images/AboutUs2.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 90vh;
+}
+
+.AboutUsPage .content{
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+.AboutUsPage .content h1{
+  font-size: 3.5rem;
+}
+
+.meetOurFathers{
+  background-image: url('../src/Images/MeetOurFathers.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 70vh;
+}
+
+.ourFather hr{
+  border-top: 5px double orange;
+  width: 35%;
+  margin: 10px auto;
+}
+
+.Pillars .card:hover {
+  background-color: var(--main-color);
+  transition: 0.3s all ease-in-out;
+}
+
+/*Start Footer Styles*/
+
+.footer .icons a i , h4 , p{
+  color:#d6d4d4
+}
+
+.footer .icons a:hover i{
+  color: var(--main-color);
+  transition: 0.4s ease-in-out;
+  -moz-transition: 0.4s ease-in-out;
+}
+
+.footer .contactUs-link{
+  color: #d6d4d4;
+  text-decoration: none;
+}
+
+.footer .contactUs-link:hover{
+  color: var(--main-color);
+  transition: 0.4s ease-in-out;
+}
+
+
