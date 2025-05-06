@@ -26,7 +26,7 @@ let routers = createBrowserRouter([
 
 export default function App() {
   return (
-    <RouterProvider router={routers}></RouterProvider>
+    <RouterProvider basename={process.env.PUBLIC_URL} router={routers}></RouterProvider>
   )
 }
 
