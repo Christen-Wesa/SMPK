@@ -28,7 +28,7 @@ export default function Giving() {
   <p className='text-black fs-5 lh-lg'>Giving is an act of worship and a way to express gratitude for God's blessings. Your donation helps support the church’s mission, outreach programs, and community services, ensuring that we can continue to spread God’s love through worship, discipleship, and acts of kindness. Every contribution, no matter the size, makes a meaningful impact—helping those in need, maintaining our place of worship, and funding ministries that bring hope and transformation.<br/> As 2 Corinthians 9:7 reminds us, "God loves a cheerful giver." Thank you for being a part of this mission and for your generosity in advancing God's kingdom.</p>
 </div>
 
-<div className="waysToGive text-center py-5 bg-success text-white">
+<div className="waysToGive text-center py-5 bg-main text-white">
   <h2 className='fs-1'>Ways to Give</h2>
   <p className='py-4 fs-5'>We encourage regular automatic giving to help us better forecast and distribute income to the various ministries we support.</p>
   <div className="row mx-0">

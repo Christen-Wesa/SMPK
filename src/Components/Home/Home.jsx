@@ -53,7 +53,7 @@ export default function Home() {
         </tr>
       </table>
       <p className='text-dark fs-5 my-4 fst-italic'>Check Out The Full Calendar For Liturgies and Upcoming Events!</p>
-      <Link to='/Schedule'><button className='btn btn-success my-4'>Full Calender</button></Link>        
+      <Link to='/Schedule'><button className='btn btn-info my-4'>Full Calender</button></Link>        
     </div>
   </div>
 </div>

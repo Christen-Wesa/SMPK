@@ -12,7 +12,7 @@ import WatchLive from "../src/Components/WatchLive/WatchLive.jsx";
 
 
 let routers = createBrowserRouter([
-  {path: '' , element: <Home/>},
+  {path: '*' , element: <Home/>},
     {path: '/', element:<Layout/> , children:[
     {path: 'Home' , element: <Home/>},
     {path: 'AboutUs' , element: <AboutUs/>},
@@ -26,7 +26,7 @@ let routers = createBrowserRouter([
 
 export default function App() {
   return (
-    <RouterProvider basename={process.env.PUBLIC_URL} router={routers}></RouterProvider>
+    <RouterProvider router={routers}></RouterProvider>
   )
 }
 

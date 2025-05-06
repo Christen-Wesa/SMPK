@@ -18,6 +18,10 @@ body {
   color: var(--main-color);
 }
 
+.bg-main{
+  background-color: var(--main-color);
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -340,7 +344,7 @@ color: var(--main-color);
 }
 
 .contactUs{
-  background-image: url('../src/Images/contactUs\ .jpeg');
+  background-image: url('../src/Images/ContactUs.jpg');
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: cover;
@@ -396,8 +400,8 @@ color: var(--main-color);
 }
 
 .Pillars .card:hover {
-  background-color: var(--main-color);
   transition: 0.3s all ease-in-out;
+  box-shadow: 0 0 7px var(--main-color);
 }
 
 /*Start Footer Styles*/
