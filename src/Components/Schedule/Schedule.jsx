@@ -28,9 +28,10 @@ export default function Schedule() {
         <h2 className='text-center py-3'>Full Calender</h2>
         <div className="row">
           <div className="col-12">
-            <iframe className='mt-4 w-100' src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FNew_York&showPrint=0&showTitle=0&showTz=0&src=ZnIuc2FtdWVsdEBnbWFpbC5jb20&color=%23C0CA33" height={600} frameborder="0" scrolling="no"></iframe>    
+            <iframe className='mt-4 w-100' src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FNew_York&showPrint=0&src=ZnIuc2FtdWVsdEBnbWFpbC5jb20&color=%23c0ca33" style="border-width:0" height={600} frameborder="0" scrolling="no"></iframe>
           </div>
         </div>
       </div>
   </>
 }
+
