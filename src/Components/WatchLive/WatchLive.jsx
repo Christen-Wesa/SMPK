@@ -15,7 +15,7 @@ export default function WatchLive() {
     <div className="LiveVideo my-5 py-5 mx-5">
       <div className="row">
         <div className="col-lg-8 col-sm-12">
-          <iframe className='w-100' height={450} src="https://www.youtube.com/embed/OJQzBBL-kUQ?si=TsPRO7QZuOBfuTVm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <iframe className='w-100' height={450} src='https://www.youtube.com/live/OJQzBBL-kUQ' allowFullScreen></iframe>
         </div>
   
         <div className="col-lg-4 col-sm-12">
@@ -25,3 +25,5 @@ export default function WatchLive() {
     </div>
   </>
 }
+
+
